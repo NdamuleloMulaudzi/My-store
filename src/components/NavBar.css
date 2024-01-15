@@ -1,23 +1,24 @@
-*{
+* {
     margin: 0;
 }
-.navbar{
+
+.navbar {
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: rgb(18, 19, 17);
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.navbar-menu{
+.navbar-menu {
     margin-right: 50px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.navbar-menu a{
+.navbar-menu a {
     color: white;
     text-decoration: none;
     margin-left: 50px;
@@ -25,3 +26,12 @@
     align-items: center;
 }
 
+@media only screen and (max-width:600px) {
+    .navbar-menu a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 40px;
+        align-items: center;
+    }
+}
